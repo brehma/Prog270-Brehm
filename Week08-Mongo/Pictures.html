@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html ng-app="elvenApp">
+	<head>
+		<meta charset="utf-8" />
+		<title>Brehm Week08-MongoDB Project</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="favicon1.png">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.css">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
+		<link href="Carousel.css" rel="stylesheet" type="text/css" />
+		<!-- Latest compiled and minified JavaScript - Move to bottom of body element -->
+		<script src="//code.jquery.com/jquery.js"></script>
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+		<script src="angular.js"></script>
+		<script src="angular-resource.js"></script>
+		<script src="MongoData.js"></script>
+	</head>
+	<body>
+		
+		<!-- Nav Bar 
+		================================================== -->
+		
+		<div class="navbar-wrapper">
+      	<div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+              </button>
+              <a class="navbar-brand" href="index.html">Week08-MongoDB-Brehm</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="Pictures.html">Pictures</a></li>
+                <li><a href="About.html">About</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Pictures.html">Pictures</a></li>
+                    <li><a href="About.html">About</a></li>                    
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+		<!-- /div>
+		< /div --> <!-- Navbar wrapper -->
+
+
+		<!-- Pictures and descriptions
+		================================================== -->
+		<!-- div id="myCarousel" class="carousel slide">
+			
+			<p><img alt="Ahh, this is the life" src="http://adampix.smugmug.com/Holidays/Christmas/Making-Christmas-2012/i-LSLpFg9/0/Ti/Making%20Christmas%202012-36-Ti.jpg" />
+
+			<img src="favicon1.png" alt="favicon">
+			<p><a class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+		</div -->
+	
+		<!-- Example row of columns -->
+		<div class="row">
+			<div class="col-lg-4">
+				<h2>A rose by any other name... is still a rose, but by another name</h2>
+				<img src="http://adampix.smugmug.com/Misc/Flowers/Our-Roses-Iin-Bloom/i-3pwvxZ6/0/Th/Walkway%20roses-4-Th.jpg" alt="smugmug link">
+				<p>A rose bush from my garden was in full bloom and I just could not
+				    pass up the opportunity for a picture
+				</p>
+				<p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+			</div>
+			<div class="col-lg-4">
+				<h2>Chinese-inspired copper downspout-gutter drip bowls</h2>
+				<img src="http://adampix.smugmug.com/Misc/Just-4-Fun/i-TCHFqjq/0/Th/Tara%27s%20Thank%20You%20Gift-11-Th.jpg" alt="gutter drip bowls">
+				<p>My oldest son's class made a copper chain of drip bowls as an 
+				appreciation for her hard work and dedication. I believe one 
+				of the parents hand-made this thank you gift</p>
+				<p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+			</div>
+			<div class="col-lg-4">
+				<h2>A boy and his bear explore Eagle Crest in Redmond, Oregon</h2>
+				<img src="http://adampix.smugmug.com/Vacation/Eagle-Crest-Vaca-6-2228-2012/i-tSd8Bzn/0/Th/Summer%20vacation%20%28Eagle%20Crest%2C%206-22%20to%206-28-2012%29-304-Th.jpg" alt="Everett and his bear, Boy">
+				<p>Everett and Boy are learning about the great outdoors. We were
+				    on vacation at the Eagle Crest golf resort in Redmond, Oregon
+				    when my youngest son decided that he and his "boy" (his bear's 
+				    name) needed to go out for an exploration session
+				</p>
+			</div>
+		</div><!-- /.carousel -->
+<!-- FOOTER -->
+			<footer>
+				<p class="pull-right"><a href="#">Back to top</a></p>
+				<p>&copy; 2013 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+			</footer>
+		<!-- Marketing messaging and featurettes
+		================================================== -->
+		<!-- Wrap the rest of the page in another container to center all the content. -->
+
+		<!-- div class="container marketing" -->
+
+		
+	
+			
+
+		</div><!-- /.container -->
+
+	</body>
+</html>
