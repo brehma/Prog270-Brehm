@@ -28,7 +28,7 @@ function listBuckets(s3) {
 function writeFile(localFileName, nameOnS3, binary) {
 	// Read in the file, convert it to base64, store to S3
 	
-	nameOnS3 = "Week05-Bootstrap" + nameOnS3;
+	nameOnS3 = "Week08-MongoDB" + nameOnS3;
 	
 	fs.readFile(localFileName, function(err, data) {
 		if (err) {
@@ -149,12 +149,18 @@ walkDirs('Source');
 walkDirs('Style');
 */
 writeFile('index.html', '/index.html', false);
-writeFile('Contact.html', '/Contact.html', false);
-writeFile('Grid.css', '/Grid.css', false);
-writeFile('Jumbo.css', '/Jumbo.css', false);
+writeFile('Pictures.html', '/Pictures.html', false);
 writeFile('index.css', '/index.css', false);
+writeFile('Carousel.css', '/Carousel.css', false);
 writeFile('About.html', '/About.html', false);
+writeFile('favicon.pdn', '/favicon.pdn', false);
 writeFile('favicon.png', '/favicon.png', false);
 writeFile('favicon1.png', '/favicon1.png', false);
-writeFile('favicon2.png', '/favicon2.png', false);
+writeFile('Image140X140A.png', '/Image140X140A.png', false);
+writeFile('Image140X140B.png', '/Image140X140B.png', false);
+writeFile('Image140X140C.png', '/Image140X140C.png', false);
+writeFile('Image500X500A.png', '/Image500X500.png', false);
+writeFile('Image500X500B.png', '/Image500X500B.png', false);
+writeFile('Image500X500C.png', '/Image500X500C.png', false);
+writeFile('Img140X140.png', '/Img140X140.png', false);
 //listBuckets(s3);

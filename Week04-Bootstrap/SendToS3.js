@@ -28,7 +28,7 @@ function listBuckets(s3) {
 function writeFile(localFileName, nameOnS3, binary) {
 	// Read in the file, convert it to base64, store to S3
 	
-	nameOnS3 = "Week05-Bootstrap" + nameOnS3;
+	nameOnS3 = "Week04-Bootstrap" + nameOnS3;
 	
 	fs.readFile(localFileName, function(err, data) {
 		if (err) {
@@ -150,11 +150,7 @@ walkDirs('Style');
 */
 writeFile('index.html', '/index.html', false);
 writeFile('Contact.html', '/Contact.html', false);
-writeFile('Grid.css', '/Grid.css', false);
-writeFile('Jumbo.css', '/Jumbo.css', false);
 writeFile('index.css', '/index.css', false);
 writeFile('About.html', '/About.html', false);
 writeFile('favicon.png', '/favicon.png', false);
-writeFile('favicon1.png', '/favicon1.png', false);
-writeFile('favicon2.png', '/favicon2.png', false);
 //listBuckets(s3);
